@@ -45,7 +45,7 @@ const Categories = () => {
   ];
 
   return (
-    <div className="container mt-10 select-none  md:mt-24 mx-auto px-4">
+    <div className="container mt-10 select-none mb-4  md:mt-24 mx-auto px-4">
       <h1 className="text-center text-4xl md:text-6xl sm:text-3xl font-bold text-gray-800 mb-20">Categories</h1>
       <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
         {cardData.map((item, index) => (

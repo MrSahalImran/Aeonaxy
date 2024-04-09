@@ -16,7 +16,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bottom-0 w-full px-4 pt-20  select-none">
+    <footer className="bottom-0 mt-2 w-full px-4 pt-20  select-none">
 <div className="mb-[8vw] border-dotted border-gray-400 border-t-4"></div>
       <div className="lg:flex lg:gap-[18vw]">
         <div className="flex flex-col gap-6 lg:w-[27%] md:w-full">
