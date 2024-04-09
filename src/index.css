@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px){
+    .footer-options{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    .sm-footer-options{
+        display: block;
+    }
+}
